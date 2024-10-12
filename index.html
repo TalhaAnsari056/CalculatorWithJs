@@ -3,60 +3,47 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CalculatorWithJs</title>
-    <link rel="stylesheet" href="style.css">
+    <title>calculator</title>
+    <link rel="stylesheet" href="calculator.css">
 </head>
 <body>
+    <div class="maindiv">
     <center>
-        <div class="dev">
-            <p>Calculator</p>
-    <table class="tab" >
-        <!-- row 1 -->
-         <tr class="first"><td class="first" colspan="5">000000123</td></tr>
-         <tr class="second"><td class="second" colspan="5"></td></tr>
-        <tr class="text">
-            <td class="dif">MRC</td>
-            <td class="dif">M-</td>
-            <td class="dif">M+</td>
-            <td class="dif">+/-</td>
-            <td class="dif">ON</td>
-        </tr >
-        <!-- row 2 -->
-        <tr class="text">
-        <td class="col">7</td>
-        <td class="col">8</td>
-        <td class="col">9</td>
-        <td class="dif">%</td>
-        <td class="dif">#</td>
-    </tr>
-    <!-- row3 -->
-    <tr class="text">
-        <td class="col">4</td>
-        <td class="col">5</td>
-        <td class="col">6</td>
-        <td class="dif">+</td>
-        <td class="dif">( )</td>
-    </tr>
-    <!-- row4 -->
-    <tr class="text">
-        <td class="col">1</td>
-        <td class="col">2</td>
-        <td class="col">3</td>
-        <td class="dif">+/-</td>
-        <td id="last" rowspan="2">-</td>
-    </tr>
-    <!-- row5 -->
-    <tr class="text">
-        <td class="col">0</td>
-        <td class="col">00</td>
-        <td class="col">.</td>
-        <td class="dif">-</td>
-        <!-- <td rowspan="2">-</td> -->
-    </tr>
+        <span>Calculator</span>
+<table class="tabl" border="1px solid white">
+        <tr class="row1"> 
+            <td height="20px" colspan="4"></td>
+        </tr>
+        <tr class="row2">
+            <td class="same">7</td>
+            <td class="same">8</td>
+            <td class="same">9</td>
+            <td class="del">Del</td>
+        </tr>
+        <tr class="row3">
+            <td class="same">4</td>
+            <td class="same">5</td>
+            <td class="same">6</td>
+            <td class="same" id="mustard" >/</td>
+        </tr>
+        <tr class="row4">
+            <td class="same">1</td>
+            <td class="same">2</td>
+            <td class="same">3</td>
+            <td class="same" id="mustard">*</td>
+        </tr>
+        <tr class="row5">
+            <td colspan="2"  class="same">0</td>
+            <td  class="same">.</td>
+            <td  class="same" id="mustard">-</td>
+        </tr>
+        <tr class="row6">
+            <td colspan="3" class="equal">=</td>
+            <td  class="same" id="mustard">+</td>
+        </tr>
     </table>
-</div>
 </center>
-    
+</div>
 </body>
-<script src="./index.js"></script>
+<script src="./index.html"></script>
 </html>
